@@ -1,0 +1,5 @@
+for _, obj in ipairs(game.Workspace:GetChildren()) do
+    if obj.Name ~= "Terrain" and obj.Name ~= "Camera" then
+        obj:Destroy()
+    end
+end
